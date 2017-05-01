@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300');
+
+//all colors used in project
+$lightblue: #02b3e4;
+$lightgray: #7d97ad;
+$black_gray: #2d3c49;
+
+$font: 'Lato', sans-serif;
+
+@media screen and (min-width: 400px){
+ h1{
+   font-size:50px;
+ }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+body{
+  font-family: $font;
+  font-weight: 300;
+  color: $black_gray;
+}
+h1{
+  font-weight:100;
+}
+h2{
+  color: $lightgray;
+}
+.content-img{
+  margin:auto;
+}
+.logo{
+  margin-top: 1em;
+}
+hr{
+  height: 1px;
+  color: $lightgray;
+  border-top: none;
+  border-bottom: thick solid $lightgray;
+
+}
